@@ -30,7 +30,7 @@ session_start();
     <!-- iCheck -->
     <link rel="stylesheet" href="assets/plugins/iCheck/square/blue.css">
     <!-- Icon -->
-    <link rel="icon" type="icon" href="assets/dist/img/logo_app.png">
+    <link rel="icon" type="icon" href="assets/dist/img/icon-smk.png">
     <!-- Custom -->
     <link rel="stylesheet" href="assets/dist/css/custom.css">
     <!-- Toastr -->
