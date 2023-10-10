@@ -6,17 +6,19 @@
             Dashboard
             <small>
                 <script type='text/javascript'>
-                    var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
-                    var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum&#39;at', 'Sabtu'];
-                    var date = new Date();
-                    var day = date.getDate();
-                    var month = date.getMonth();
-                    var thisDay = date.getDay(),
-                        thisDay = myDays[thisDay];
-                    var yy = date.getYear();
-                    var year = (yy < 1000) ? yy + 1900 : yy;
-                    document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
-                    //
+                var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September',
+                    'Oktober', 'November', 'Desember'
+                ];
+                var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum&#39;at', 'Sabtu'];
+                var date = new Date();
+                var day = date.getDate();
+                var month = date.getMonth();
+                var thisDay = date.getDay(),
+                    thisDay = myDays[thisDay];
+                var yy = date.getYear();
+                var year = (yy < 1000) ? yy + 1900 : yy;
+                document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
+                //
                 </script>
             </small>
         </h1>
@@ -60,7 +62,8 @@
 
         ?>
 
-        <img src="../../assets/dist/img/icon-app.png" width="120px" height="120px" style="display: block; margin-left: auto; margin-right: auto; margin-top: 100px;">
+        <img src="../../assets/dist/img/icon-smk.png" width="120px" height="120px"
+            style="display: block; margin-left: auto; margin-right: auto; margin-top: 100px;">
 
         <h1 class="text-center"><?= $row['nama_app']; ?></h1>
         <p class="text-center">Alamat : <?= $row['alamat_app']; ?></p>

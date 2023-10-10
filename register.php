@@ -40,11 +40,11 @@ session_start();
 <body class="hold-transition login-page" style="font-family: 'Quicksand', sans-serif;">
     <div class="login-box">
         <div class="login-logo">
-            <a href="masuk"><b>PERPUSTAKAAN</b></a>
+            <a href="masuk"><b>PERPUSTAKAAN SMKS VETERAN KOTA CIREBON</b></a>
         </div>
         <!-- /.login-logo -->
         <div class="login-box-body" style="border-radius: 10px;">
-            <img src="assets/dist/img/icon-app.png" height="80px" width="80px"
+            <img src="assets/dist/img/icon-smk.png" height="80px" width="80px"
                 style="display: block; margin-left: auto; margin-right: auto; margin-top: -12px; margin-bottom: 5px;">
 
             <form name="formLogin" action="function/Process.php?aksi=daftar" method="POST" enctype="multipart/form-data"
@@ -64,7 +64,7 @@ session_start();
                 <div class="row">
                     <!-- /.col -->
                     <div class="col-xs-12">
-                        <button type="submit" class="btn btn-primary btn-block btn-flat">Daftar Sekarang</button>
+                        <button type="submit" class="btn btn-warning btn-block btn-flat">Daftar Sekarang</button>
                     </div>
                     <!-- /.col -->
                 </div>
@@ -74,7 +74,7 @@ session_start();
                 <p style="font-size: 11px;">- ATAU -</p>
                 <div class="row">
                     <div class="col-xs-12">
-                        <button type="button" onclick="Masuk()" class="btn btn-block btn-success btn-flat"><i
+                        <button type="button" onclick="Masuk()" class="btn btn-block btn-primary btn-flat"><i
                                 class="fa fa-sign-in"></i> Sudah mempunyai akun ? Masuk</button>
                     </div>
                 </div>
