@@ -40,7 +40,7 @@ if ($_SESSION['level'] != "Anggota") {
     <!-- -->
     <link rel="stylesheet" href="../../assets/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
     <!-- Icon -->
-    <link rel="icon" type="icon" href="../../assets/dist/img/icon-app.png">
+    <link rel="icon" type="icon" href="../../assets/dist/img/icon-smk.png">
     <!-- Custom -->
     <link rel="stylesheet" href="../../assets/dist/css/custom.css">
     <!-- Toastr -->
