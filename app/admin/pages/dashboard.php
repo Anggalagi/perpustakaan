@@ -6,17 +6,19 @@
             Dashboard
             <small>
                 <script type='text/javascript'>
-                    var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
-                    var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum&#39;at', 'Sabtu'];
-                    var date = new Date();
-                    var day = date.getDate();
-                    var month = date.getMonth();
-                    var thisDay = date.getDay(),
-                        thisDay = myDays[thisDay];
-                    var yy = date.getYear();
-                    var year = (yy < 1000) ? yy + 1900 : yy;
-                    document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
-                    //
+                var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September',
+                    'Oktober', 'November', 'Desember'
+                ];
+                var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum&#39;at', 'Sabtu'];
+                var date = new Date();
+                var day = date.getDate();
+                var month = date.getMonth();
+                var thisDay = date.getDay(),
+                    thisDay = myDays[thisDay];
+                var yy = date.getYear();
+                var year = (yy < 1000) ? yy + 1900 : yy;
+                document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
+                //
                 </script>
             </small>
         </h1>
@@ -89,7 +91,8 @@
                     <div class="icon">
                         <i class="fa fa-sign-out"></i>
                     </div>
-                    <a href="data-peminjaman" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                    <a href="data-peminjaman" class="small-box-footer">More info <i
+                            class="fa fa-arrow-circle-right"></i></a>
                 </div>
             </div>
             <!-- ./col -->
@@ -109,7 +112,8 @@
                     <div class="icon">
                         <i class="fa fa-sign-in"></i>
                     </div>
-                    <a href="data-pengembalian" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                    <a href="data-pengembalian" class="small-box-footer">More info <i
+                            class="fa fa-arrow-circle-right"></i></a>
                 </div>
             </div>
             <!-- ./col -->
@@ -124,10 +128,12 @@
 
             ?>
 
-            <img src="../../assets/dist/img/icon-app.png" width="120px" height="120px" style="display: block; margin-left: auto; margin-right: auto; margin-top: 30px; margin-bottom: -20px;">
+            <img src="../../assets/dist/img/icon-smk.png" width="120px" height="120px"
+                style="display: block; margin-left: auto; margin-right: auto; margin-top: 30px; margin-bottom: -20px;">
 
-            <h2 class="text-center" style="font-family: Quicksand, sans-serif;">Perpustakaan SMAN Pati</h2>
-            <p class="text-center">Alamat : Jl. P. Sudirman No.24, Puri, Plangitan, Kec. Pati, Kabupaten Pati, Jawa Tengah</p>
+            <h2 class="text-center" style="font-family: Quicksand, sans-serif;">Perpustakaan SMKS Veteran Kota Cirebon
+            </h2>
+            <p class="text-center">Alamat : Sunyaragi, Kec. Kesambi, Kota Cirebon, Jawa Barat 45132</p>
 
         </div>
     </section>

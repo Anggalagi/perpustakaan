@@ -44,7 +44,8 @@
                 </a></li>
             <li><a href="profil-saya"><i class="fa fa-user"></i> <span>Profil Saya</span></a></li>
             <li class="header">LANJUTAN</li>
-            <li><a href="#Logout" data-toggle="modal" data-target="#modalLogoutConfirm"><i class="fa fa-sign-out"></i> <span>Keluar</span></a></li>
+            <li><a href="#Logout" data-toggle="modal" data-target="#modalLogoutConfirm"><i class="fa fa-sign-out"></i>
+                    <span>Keluar</span></a></li>
         </ul>
     </section>
     <!-- /.sidebar -->
@@ -58,7 +59,7 @@
                 <h4 class="modal-title" style="font-family: 'Quicksand', sans-serif; font-weight: bold;">Peringatan</h4>
             </div>
             <div class="modal-body">
-                <span>Apa anda yakin ingin keluar dari Applikasi ? <br>
+                <span>Apa anda yakin ingin keluar dari Aplikasi ? <br>
                     Anda harus login kembali jika ingin masuk Applikasi Perpustakaan</span>
             </div>
             <div class="modal-footer">
@@ -69,7 +70,7 @@
     </div>
 </div>
 <script>
-    var refreshId = setInterval(function() {
-        $('#jumlahPesan').load('./pages/function/Pesan.php?aksi=jumlahPesan');
-    }, 500);
+var refreshId = setInterval(function() {
+    $('#jumlahPesan').load('./pages/function/Pesan.php?aksi=jumlahPesan');
+}, 500);
 </script>

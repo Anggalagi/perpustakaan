@@ -1,6 +1,6 @@
 <?php
 //------------------------------::::::::::::::::::::------------------------------\\
-// Dibuat oleh FA Team di PT. Pacifica Raya Technology \\
+// Dibuat oleh Angga Aditya \\
 //------------------------------::::::::::::::::::::------------------------------\\
 $server = "localhost";
 $username = "root";

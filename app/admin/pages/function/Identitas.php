@@ -15,11 +15,11 @@ if ($_GET['aksi'] == "edit") {
     $sql = mysqli_query($koneksi, $query);
 
     if ($sql) {
-        $_SESSION['berhasil'] = "Identitas applikasi berhasil diedit !";
+        $_SESSION['berhasil'] = "Identitas aplikasi berhasil diedit !";
 
         header("location: " . $_SERVER['HTTP_REFERER']);
     } else {
-        $_SESSION['gagal'] = "Identitas applikasi gagal diedit !";
+        $_SESSION['gagal'] = "Identitas aplikasi gagal diedit !";
 
         header("location: " . $_SERVER['HTTP_REFERER']);
     }
