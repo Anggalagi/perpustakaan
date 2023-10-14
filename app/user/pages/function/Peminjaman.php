@@ -53,7 +53,7 @@ if ($_GET['aksi'] == "pinjam") {
     if ($_POST['kondisiBukuSaatDikembalikan'] == "Baik") {
         $denda = "Tidak ada";
     } elseif ($_POST['kondisiBukuSaatDikembalikan'] == "Rusak") {
-        $denda = "Rp 20.000";
+        $denda = "Rp 500";
     } elseif ($_POST['kondisiBukuSaatDikembalikan'] == "Hilang") {
         $denda = "Rp 50.000";
     }
